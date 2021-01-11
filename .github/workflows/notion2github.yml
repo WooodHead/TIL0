@@ -77,6 +77,8 @@ jobs:
         uses: creyD/prettier_action@v3.1
         with:
           prettier_options: --write ./docs/**/*.md ./log/**/*.md
+          commit_user_name: Younho Choo
+          commit_user_email: younho9.choo@gmail.com
           commit_message: 'docs: Update docs (auto)'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
