@@ -1,9 +1,6 @@
 
 
 
-
-
-
 <h1 align="center">📝 TIL(Today I Learned)</h1>
 
 <div align="center">
