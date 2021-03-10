@@ -9,10 +9,10 @@
   "repository": "https://github.com/younho9/TIL.git",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start --host 0.0.0.0",
-    "build": "docusaurus build",
+    "start": "export $(cat .env | grep -v ^# | xargs) && docusaurus start --host 0.0.0.0",
+    "build": "export $(cat .env | grep -v ^# | xargs) && docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "export $(cat .env | grep -v ^# | xargs) && docusaurus deploy",
     "serve": "docusaurus serve",
     "format:docs": "cd docs && prettier --write .",
     "format:log": "cd log && prettier --write ."
