@@ -21,7 +21,7 @@ jobs:
       - name: Notion2Github Algorithms
         uses: younho9/notion2github@v1.1.0
         with:
-          database-url: https://www.notion.so/wooodhead/98b9e3c6663a43d8baab20ed7f8e600a?v=5adb69d309de49af9ae7ff655739caa9
+          database-url: ${{ secrets.DATABASE_URL }}
           docs-directory: ./docs/algorithms
           filter-prop: Main Category
           filter-value: Algorithms
@@ -31,7 +31,7 @@ jobs:
       - name: Notion2Github CS
         uses: younho9/notion2github@v1.1.0
         with:
-          database-url: https://www.notion.so/wooodhead/98b9e3c6663a43d8baab20ed7f8e600a?v=5adb69d309de49af9ae7ff655739caa9
+          database-url: ${{ secrets.DATABASE_URL }}
           docs-directory: ./docs/cs
           filter-prop: Main Category
           filter-value: CS
@@ -41,7 +41,7 @@ jobs:
       - name: Notion2Github ETC
         uses: younho9/notion2github@v1.1.0
         with:
-          database-url: https://www.notion.so/wooodhead/98b9e3c6663a43d8baab20ed7f8e600a?v=5adb69d309de49af9ae7ff655739caa9
+          database-url: ${{ secrets.DATABASE_URL }}
           docs-directory: ./docs/etc
           filter-prop: Main Category
           filter-value: ETC
@@ -51,7 +51,7 @@ jobs:
       - name: Notion2Github Frontend
         uses: younho9/notion2github@v1.1.0
         with:
-          database-url: https://www.notion.so/wooodhead/98b9e3c6663a43d8baab20ed7f8e600a?v=5adb69d309de49af9ae7ff655739caa9
+          database-url: ${{ secrets.DATABASE_URL }}
           docs-directory: ./docs/frontend
           filter-prop: Main Category
           filter-value: Frontend
@@ -61,7 +61,7 @@ jobs:
       - name: Notion2Github Log
         uses: younho9/notion2github@v1.1.0
         with:
-          database-url: https://www.notion.so/wooodhead/98b9e3c6663a43d8baab20ed7f8e600a?v=5adb69d309de49af9ae7ff655739caa9
+          database-url: ${{ secrets.DATABASE_URL }}
           docs-directory: ./log
           filter-prop: Main Category
           filter-value: Log
