@@ -12,11 +12,11 @@ const docFooters = docNavs.map(({ to, label }) => ({ to, label }));
 module.exports = {
   title: '📝 TIL(Today I Learned)',
   tagline: '하루동안 공부한 것들을 기록하는 공간',
-  url: 'https://til.younho9.dev',
+  url: 'https://blog.wooodhead.com',
   baseUrl: '/',
   onBrokenLinks: 'error',
   favicon: 'img/logo.png',
-  organizationName: 'younho9',
+  organizationName: 'wooodhead',
   projectName: 'til',
   themeConfig: {
     algolia: {
