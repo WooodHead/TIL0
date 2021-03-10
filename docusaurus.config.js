@@ -12,7 +12,7 @@ const docFooters = docNavs.map(({ to, label }) => ({ to, label }));
 module.exports = {
   title: '📝 TIL(Today I Learned)',
   tagline: '하루동안 공부한 것들을 기록하는 공간',
-  url: 'https://blog.wooodhead.com',
+  url: 'https://wooodhead.github.io/til',
   baseUrl: '/',
   onBrokenLinks: 'error',
   favicon: 'img/logo.png',
