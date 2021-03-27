@@ -1,3 +1,4 @@
+# 只能在pc上面编译，M1 Mac 不行
 # Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
